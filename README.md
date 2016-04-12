@@ -5,6 +5,8 @@
 
 a scalable Magento 2.0 image based on Alpine, PHP-FPM, NginX and MariaDB Galera Cluster
 
+![magento-docker](http://magenticians.com/wp-content/uploads/2014/12/docker-magento-2-768x250.png)
+
 ## Launching
 
 ### Ephemeral data
