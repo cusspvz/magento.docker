@@ -1,7 +1,6 @@
 # cusspvz/magento
 
 [**@GitHub** ](https://github.com/cusspvz/magento.docker)
--
 [**@Docker Hub**](https://hub.docker.com/cusspvz/magento)
 
 a scalable Magento 2.0 image based on Alpine, PHP-FPM, NginX and MariaDB Galera Cluster
