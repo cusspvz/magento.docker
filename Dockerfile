@@ -99,7 +99,7 @@ RUN \
     sed 's,;always_populate_raw_post_data,always_populate_raw_post_data,g' -i $PHP_INI && \
     sed 's,memory_limit = 128M,memory_limit = 256M,g' -i $PHP_INI
 
-# Must be keeped until it is fixed
+# Must be kept until it is fixed
 # https://github.com/zendframework/zend-stdlib/issues/58
 RUN sed "s,=> GLOB_BRACE,=> defined('GLOB_BRACE') ? GLOB_BRACE : 0,g" -i /magento/vendor/zendframework/zend-stdlib/src/Glob.php
 
